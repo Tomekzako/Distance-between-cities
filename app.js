@@ -4,6 +4,7 @@ var london = {
     lat: 51.5,
     lng: -0.1
 }
+var submitBtn = $(".btn");
 
 function initialize() {
 
@@ -27,7 +28,9 @@ function initialize() {
 }
 
 
-
+submitBtn.on('click', function () {
+    calcRoute();
+})
 
 
 function calcRoute() {
