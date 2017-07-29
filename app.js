@@ -29,6 +29,7 @@ function initialize() {
 
 
 
+
 function calcRoute() {
     var request = {
         origin: document.getElementById('from').value,
