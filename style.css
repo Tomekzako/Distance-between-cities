@@ -2,6 +2,7 @@ body {
     background-image: url(images/road.jpeg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     font-family: 'Arvo', serif;
     color: #fff;
@@ -17,7 +18,8 @@ body {
     letter-spacing: 2.5px;
 }
 
-.jumbotron h1, p {
+.jumbotron h1,
+p {
     text-align: center;
 }
 
@@ -25,4 +27,10 @@ body {
     width: 100%;
     margin: 10px auto;
     height: 300px;
+}
+
+.info {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px auto;
 }
