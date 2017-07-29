@@ -40,3 +40,11 @@
 
         });
     }
+
+    var from = document.getElementById("from");
+    var to = document.getElementById("to");
+    var options = {
+        types: ['(cities)']
+    }
+    var autocomplete1 = new google.maps.places.Autocomplete(from, options);
+    var autocomplete2 = new google.maps.places.Autocomplete(to, options);
